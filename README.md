@@ -23,7 +23,7 @@
 
 Construyo **webs, menús digitales, bots de WhatsApp y software a la medida** para que negocios locales vendan más y automaticen su operación. Estudio **Ingeniería de Sistemas en la Universidad Icesi** (becado al 100%) en Cali, tengo mis raíces en **Magüí Payán (Nariño)** y me muevo a diario con **Linux, Termux y prácticas de ciberseguridad**.
 
-> **🎯 Caso real — Voltag Gym:** desarrollé su landing page optimizada para que tanto buscadores como motores de IA la encuentren y la recomienden. **Pasó de ser un gimnasio escondido a recibir gente nueva.**
+> **🎯 Caso real — [Voltag Gym](https://voltag-landing.vercel.app):** desarrollé su landing page optimizada para que tanto buscadores como motores de IA la encuentren y la recomienden. **Pasó de ser un gimnasio escondido a recibir gente nueva.**
 
 ---
 
@@ -89,20 +89,20 @@ flowchart LR
 
 ## 🚀 Proyectos y Clientes
 
-| Proyecto | Estado | Qué es y qué resuelve |
-| :--- | :---: | :--- |
-| **Mi Wapi** *(Miwapi)* | ![En construcción](https://img.shields.io/badge/En_construcci%C3%B3n-52A323?style=flat-square&logo=leaflet&logoColor=white) | App de domicilios propia para municipios pequeños del Pacífico colombiano, empezando por **Magüí Payán**. |
-| **[Casa Lamad](https://github.com/juanpps/casalamad)** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | [Menú digital interactivo](https://github.com/juanpps/casalamad) y [bot de WhatsApp](https://github.com/juanpps/bot-casalamad) para atención y toma de pedidos. |
-| **[Voltag Gym](https://github.com/juanpps/voltag-landing)** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | Landing page optimizada para buscadores y asistentes de IA que ayudó a atraer nuevos clientes al gimnasio. |
-| **Método Raptor** | ![Equipo](https://img.shields.io/badge/Parte_del_Equipo-6366F1?style=flat-square&logo=codeforces&logoColor=white) | Plataforma pre-ICFES donde soy el programador del **sistema de calificación** y del **[campus virtual](https://github.com/juanpps/campus)**. |
+| Proyecto | Estado | Qué es y qué resuelve | Enlaces |
+| :--- | :---: | :--- | :---: |
+| **Mi Wapi** *(Miwapi)* | ![En construcción](https://img.shields.io/badge/En_construcci%C3%B3n-52A323?style=flat-square&logo=leaflet&logoColor=white) | App de domicilios propia para municipios pequeños del Pacífico colombiano, empezando por **Magüí Payán**. | `Repo Privado` |
+| **Casa Lamad** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | Menú digital interactivo en tiempo real e integración con bot de WhatsApp para atención y pedidos. | [![Ver en vivo](https://img.shields.io/badge/Ver_en_vivo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://casalamad.vercel.app) [![Menú](https://img.shields.io/badge/Men%C3%BA-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/juanpps/casalamad) [![Bot](https://img.shields.io/badge/Bot-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://github.com/juanpps/bot-casalamad) |
+| **Voltag Gym** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | Landing page optimizada para buscadores y asistentes de IA que ayudó a atraer nuevos clientes al gimnasio. | [![Ver en vivo](https://img.shields.io/badge/Ver_en_vivo-10B981?style=flat-square&logo=vercel&logoColor=white)](https://voltag-landing.vercel.app) [![Código](https://img.shields.io/badge/C%C3%B3digo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/juanpps/voltag-landing) |
+| **Método Raptor** | ![Equipo](https://img.shields.io/badge/Parte_del_Equipo-6366F1?style=flat-square&logo=codeforces&logoColor=white) | Plataforma pre-ICFES donde soy el programador del **sistema de calificación** y del **campus virtual**. | [![Campus](https://img.shields.io/badge/Campus-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/juanpps/campus) |
 
 <details>
 <summary><b>📂 Ver más proyectos y herramientas que he construido (clic para desplegar)</b></summary>
 <br />
 
 - **TeBoto** y **StudyClip AI** — Proyectos propios en desarrollo.
-- **MagnusCRM** — Herramienta propia para gestión de clientes.
-- **Gestor de malla curricular de Icesi** y **Calculadora de puntaje ICFES para Univalle**.
+- **MagnusCRM** y **[Sistema SaaS de Inventario](https://github.com/juanpps/inventario-saas)** ([ver demo](https://inventario-saas-ten.vercel.app)) — Herramientas de gestión comercial.
+- **Gestor de malla curricular de Icesi**, **Calculadora de puntaje ICFES para Univalle**, **[ICFES-SRS (InglesCards)](https://github.com/juanpps/inglescards)** ([ver demo](https://inglescards.vercel.app)) y **[LaBiblio](https://github.com/juanpps/labiblio)** ([ver demo](https://labiblio.vercel.app)).
 - **Impresión térmica ESC/POS** — Módulo para imprimir recibos en puntos de venta.
 - **Dashboard financiero de paintball con visualizador 3D**, **Gesture Particle Canvas** (control con gestos de mano por cámara), **Open Sports Tournament Tracker** (torneos con JSON abiertos), **Amigurumi Studio** y **COPy**.
 - **Idea a futuro — MaguiAprende:** proyecto en etapa de idea para crear una plataforma educativa pensada para jóvenes del Pacífico.
@@ -146,3 +146,10 @@ flowchart LR
 ---
 
 **Fuera del código:** calistenia, Ultimate Frisbee con el equipo de la U, rodar en moto por Cali, salsa de Rubén Blades y Willie Colón, Alcolirykoz, buen café mientras programo, lecturas de Marco Aurelio o Camus, *Shingeki no Kyojin*, *BoJack Horseman*, Minecraft survival y flashear ROMs.
+
+<div align="center">
+  <br />
+  <b>¿Tienes un negocio y quieres digitalizarlo, o buscas construir un producto?</b>
+  <br />
+  <a href="https://wa.me/573241241417">Escríbeme directo por WhatsApp</a> · <a href="mailto:migueljuanguerrerot@gmail.com">migueljuanguerrerot@gmail.com</a>
+</div>
