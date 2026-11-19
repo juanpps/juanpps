@@ -5,10 +5,6 @@
       <stop offset="55%" stop-color="#0B2B1E" />
       <stop offset="100%" stop-color="#133E2B" />
     </linearGradient>
-    <linearGradient id="mwAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#52A323" />
-      <stop offset="100%" stop-color="#7BC74D" />
-    </linearGradient>
     <pattern id="mwGrid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E4D38" stroke-width="0.7" stroke-opacity="0.45" />
     </pattern>
@@ -30,21 +26,24 @@
     </g>
   </g>
 
-  <!-- Top Status Badge -->
-  <g transform="translate(194, 34)">
-    <rect width="206" height="26" rx="13" fill="#061A12" stroke="#7BC74D" stroke-width="1" stroke-opacity="0.7" />
-    <circle cx="15" cy="13" r="4" fill="#7BC74D" />
-    <text x="27" y="17" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#7BC74D">
+  <!-- Top Status Badges (Generous width so text never clips or overlaps) -->
+  <g transform="translate(194, 30)">
+    <!-- Badge 1: Width 276px -->
+    <rect x="0" y="0" width="276" height="28" rx="14" fill="#061A12" stroke="#7BC74D" stroke-width="1.2" stroke-opacity="0.8" />
+    <circle cx="16" cy="14" r="4.5" fill="#7BC74D" />
+    <text x="28" y="18" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#7BC74D">
       PROYECTO INSIGNIA · EN CONSTRUCCIÓN
     </text>
 
-    <rect x="216" y="0" width="222" height="26" rx="13" fill="#061A12" stroke="#275E43" stroke-width="1" />
-    <text x="230" y="17" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#A7F3D0">
+    <!-- Badge 2: Starts at x=288, Width 236px -->
+    <rect x="288" y="0" width="236" height="28" rx="14" fill="#061A12" stroke="#275E43" stroke-width="1.2" />
+    <circle cx="304" cy="14" r="4" fill="#34D399" />
+    <text x="316" y="18" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#A7F3D0">
       Pacífico Colombiano · Magüí Payán
     </text>
   </g>
 
-  <!-- Official MiWapi Wordmark Vector Paths (Scaled cleanly) -->
+  <!-- Official MiWapi Wordmark Vector Paths -->
   <g transform="translate(190, 108) scale(0.052)">
     <path d="M149 9Q109 9 88 -13Q66 -35 66 -75V-630Q66 -671 89 -692Q112 -714 154 -714Q189 -714 209 -701Q230 -687 247 -656L462 -270H427L641 -656Q659 -687 679 -701Q700 -714 735 -714Q775 -714 796 -692Q818 -671 818 -630V-75Q818 -35 797 -13Q776 9 735 9Q695 9 674 -13Q652 -35 652 -75V-419H673L512 -139Q498 -117 483 -106Q467 -95 441 -95Q416 -95 400 -106Q384 -117 371 -139L209 -420H232V-75Q232 -35 211 -13Q190 9 149 9ZM1024 9Q982 9 959 -16Q936 -41 936 -88V-404Q936 -451 959 -476Q982 -501 1024 -501Q1067 -501 1090 -476Q1114 -451 1114 -404V-88Q1114 -41 1091 -16Q1068 9 1024 9ZM1024 -572Q977 -572 951 -594Q926 -616 926 -658Q926 -699 951 -721Q977 -743 1024 -743Q1073 -743 1098 -721Q1123 -699 1123 -658Q1123 -616 1098 -594Q1073 -572 1024 -572Z" fill="#FFFFFF" />
     <path d="M1489 9Q1452 9 1429 -8Q1406 -26 1393 -63L1198 -606Q1182 -651 1203 -683Q1225 -714 1280 -714Q1317 -714 1338 -697Q1359 -679 1371 -642L1520 -195H1473L1633 -642Q1647 -679 1668 -697Q1689 -714 1722 -714Q1755 -714 1775 -697Q1795 -679 1808 -641L1958 -195H1918L2071 -642Q2083 -679 2103 -696Q2124 -714 2161 -714Q2207 -714 2228 -683Q2250 -651 2233 -606L2036 -62Q2023 -26 2001 -8Q1978 9 1941 9Q1903 9 1881 -8Q1858 -26 1845 -63L1704 -459H1729L1585 -62Q1571 -26 1549 -8Q1527 9 1489 9ZM2484 11Q2427 11 2383 -10Q2340 -31 2315 -68Q2291 -104 2291 -151Q2291 -205 2319 -236Q2347 -267 2409 -281Q2471 -294 2574 -294H2629V-210H2574Q2535 -210 2510 -205Q2484 -199 2472 -188Q2460 -176 2460 -158Q2460 -135 2477 -120Q2493 -105 2524 -105Q2549 -105 2569 -116Q2588 -127 2600 -146Q2612 -166 2612 -192V-308Q2612 -344 2594 -359Q2575 -374 2530 -374Q2506 -374 2476 -368Q2446 -363 2409 -349Q2382 -339 2363 -346Q2344 -353 2333 -370Q2323 -387 2323 -407Q2324 -427 2336 -445Q2349 -463 2375 -473Q2423 -491 2464 -497Q2504 -503 2538 -503Q2620 -503 2674 -480Q2727 -456 2753 -408Q2780 -359 2780 -283V-81Q2780 -37 2759 -14Q2738 9 2698 9Q2657 9 2636 -14Q2614 -37 2614 -81V-107L2620 -93Q2615 -61 2597 -38Q2579 -15 2550 -2Q2521 11 2484 11ZM2969 189Q2927 189 2904 166Q2881 143 2881 99V-412Q2881 -455 2903 -478Q2926 -501 2968 -501Q3011 -501 3033 -478Q3056 -455 3056 -412V-354L3045 -403Q3059 -448 3104 -476Q3148 -503 3205 -503Q3269 -503 3317 -472Q3366 -441 3393 -384Q3420 -327 3420 -246Q3420 -167 3393 -109Q3366 -51 3317 -20Q3269 11 3205 11Q3150 11 3106 -15Q3062 -41 3047 -83H3059V99Q3059 143 3035 166Q3012 189 2969 189ZM3149 -120Q3176 -120 3197 -133Q3217 -147 3229 -174Q3241 -202 3241 -246Q3241 -313 3215 -342Q3189 -372 3149 -372Q3122 -372 3101 -359Q3080 -346 3068 -318Q3056 -291 3056 -246Q3056 -180 3082 -150Q3108 -120 3149 -120ZM3589 9Q3547 9 3524 -16Q3501 -41 3501 -88V-404Q3501 -451 3524 -476Q3547 -501 3589 -501Q3632 -501 3655 -476Q3679 -451 3679 -404V-88Q3679 -41 3656 -16Q3633 9 3589 9ZM3589 -572Q3542 -572 3516 -594Q3491 -616 3491 -658Q3491 -699 3516 -721Q3542 -743 3589 -743Q3638 -743 3663 -721Q3688 -699 3688 -658Q3688 -616 3663 -594Q3638 -572 3589 -572Z" fill="#7BC74D" />
@@ -55,27 +54,27 @@
      · Delivery local para municipios del Pacífico
   </text>
 
-  <text x="194" y="136" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#D1FAE5">
+  <text x="194" y="135" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#D1FAE5">
     Plataforma de domicilios pensada para conectar comercios, repartidores y familias en municipios pequeños,
   </text>
-  <text x="194" y="156" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#D1FAE5">
+  <text x="194" y="155" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#D1FAE5">
     empezando por Magüí Payán (Nariño), adaptada a conexiones móviles reales y comercio de cercanía.
   </text>
 
-  <!-- Bottom Feature Pills -->
-  <g transform="translate(194, 172)">
-    <rect x="0" y="0" width="166" height="24" rx="6" fill="#061A12" stroke="#52A323" stroke-width="1" />
-    <text x="12" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#7BC74D">
+  <!-- Bottom Feature Pills (Centered text with generous padding) -->
+  <g transform="translate(194, 171)">
+    <rect x="0" y="0" width="194" height="26" rx="7" fill="#061A12" stroke="#52A323" stroke-width="1" />
+    <text x="97" y="17" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#7BC74D">
       Comercio Local &amp; Delivery
     </text>
 
-    <rect x="176" y="0" width="188" height="24" rx="6" fill="#061A12" stroke="#52A323" stroke-width="1" />
-    <text x="188" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#A7F3D0">
+    <rect x="206" y="0" width="212" height="26" rx="7" fill="#061A12" stroke="#52A323" stroke-width="1" />
+    <text x="312" y="17" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#A7F3D0">
       Optimizado para redes lentas
     </text>
 
-    <rect x="374" y="0" width="176" height="24" rx="6" fill="#061A12" stroke="#52A323" stroke-width="1" />
-    <text x="386" y="16" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#E2E8F0">
+    <rect x="430" y="0" width="184" height="26" rx="7" fill="#061A12" stroke="#52A323" stroke-width="1" />
+    <text x="522" y="17" text-anchor="middle" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#E2E8F0">
       Identidad del Pacífico
     </text>
   </g>
