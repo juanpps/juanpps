@@ -21,9 +21,25 @@
 
 <br />
 
-Construyo **webs, menús digitales, bots de WhatsApp y software a la medida** para que negocios locales vendan más y automaticen su operación. Estudio **Ingeniería de Sistemas en la Universidad Icesi** (becado al 100%) en Cali, tengo mis raíces en **Magüí Payán (Nariño)** y me muevo a diario con **Linux, Termux y laboratorios de ciberseguridad**.
+Construyo **webs, menús digitales, bots de WhatsApp y software a la medida** para que negocios locales vendan más y automaticen su operación. Estudio **Ingeniería de Sistemas en la Universidad Icesi** (becado al 100%) en Cali, tengo mis raíces en **Magüí Payán (Nariño)** y me muevo a diario con **Linux, Termux y prácticas de ciberseguridad**.
 
 > **🎯 Caso real — Voltag Gym:** desarrollé su landing page optimizada para que tanto buscadores como motores de IA la encuentren y la recomienden. **Pasó de ser un gimnasio escondido a recibir gente nueva.**
+
+---
+
+## 🌿 Proyecto Insignia: Mi Wapi *(En construcción)*
+
+<div align="center">
+  <img src="./assets/miwapi-banner.svg" alt="Mi Wapi — Delivery para el Pacífico Colombiano" width="100%" />
+</div>
+
+<br />
+
+**Mi Wapi** es la plataforma de domicilios que estoy construyendo hoy para municipios pequeños del Pacífico colombiano, empezando por mi tierra, **Magüí Payán (Nariño)**:
+
+- **Pensada para el contexto real de la región:** interfaz rápida, ligera y diseñada para funcionar bien incluso con conexiones móviles lentas.
+- **Ecosistema local completo:** conecta a los negocios del municipio, a los domiciliarios y a las familias desde cualquier celular.
+- **Identidad propia del Pacífico:** sistema visual, colores y experiencia inspirados en el territorio nariñense.
 
 ---
 
@@ -39,7 +55,7 @@ Construyo **webs, menús digitales, bots de WhatsApp y software a la medida** pa
 
 ## 🧠 Cómo trabajo: Dirección Técnica + IA
 
-Integro **agentes de IA y Playgrounds** en todo mi flujo de desarrollo para construir más rápido sin perder el control del código:
+Integro **agentes de IA y Playgrounds** en mi flujo de desarrollo para construir más rápido sin perder el control del código:
 
 ```mermaid
 flowchart LR
@@ -71,11 +87,11 @@ flowchart LR
 
 ---
 
-## 🚀 Proyectos destacados
+## 🚀 Proyectos y Clientes
 
 | Proyecto | Estado | Qué es y qué resuelve |
 | :--- | :---: | :--- |
-| **[Mi Wapi](https://github.com/juanpps/MiWapi)** *(Miwapi)* | ![En construcción](https://img.shields.io/badge/En_construcci%C3%B3n-F59E0B?style=flat-square&logo=hammer&logoColor=white) | App de domicilios propia pensada para municipios pequeños del Pacífico colombiano, empezando por **Magüí Payán**. |
+| **Mi Wapi** *(Miwapi)* | ![En construcción](https://img.shields.io/badge/En_construcci%C3%B3n-52A323?style=flat-square&logo=leaflet&logoColor=white) | App de domicilios propia para municipios pequeños del Pacífico colombiano, empezando por **Magüí Payán**. |
 | **[Casa Lamad](https://github.com/juanpps/casalamad)** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | [Menú digital interactivo](https://github.com/juanpps/casalamad) y [bot de WhatsApp](https://github.com/juanpps/bot-casalamad) para atención y toma de pedidos. |
 | **[Voltag Gym](https://github.com/juanpps/voltag-landing)** | ![En producción](https://img.shields.io/badge/Cliente_Activo-10B981?style=flat-square&logo=checkmarx&logoColor=white) | Landing page optimizada para buscadores y asistentes de IA que ayudó a atraer nuevos clientes al gimnasio. |
 | **Método Raptor** | ![Equipo](https://img.shields.io/badge/Parte_del_Equipo-6366F1?style=flat-square&logo=codeforces&logoColor=white) | Plataforma pre-ICFES donde soy el programador del **sistema de calificación** y del **[campus virtual](https://github.com/juanpps/campus)**. |
