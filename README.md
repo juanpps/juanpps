@@ -21,13 +21,39 @@
 
 <br />
 
-Construyo **webs, menús digitales, bots de WhatsApp y software a la medida** para que negocios locales vendan y operen mejor. Basado en **Cali**, con raíces en **Magüí Payán (Nariño)**.
+Diseño y despliego **webs, menús digitales, bots de WhatsApp y software a la medida** para que negocios locales vendan y operen mejor. Estudiante becado de **Ingeniería de Sistemas en la Universidad Icesi** (Cali), con raíces en **Magüí Payán (Nariño)** e incursionando en **ciberseguridad y entornos Linux**.
 
 > **🎯 Caso real — Voltag Gym:** diseñé su landing page optimizada para que los motores de IA la encuentren y la recomienden. **Pasó de ser un gimnasio escondido a recibir gente nueva.**
 
 ---
 
-## 🛠️ Qué hago en MagnusCode
+## 🎓 Formación y Enfoque Técnico
+
+| Área | Detalle |
+| :--- | :--- |
+| **🏛️ Ingeniería de Sistemas** | **Universidad Icesi** (Cali, Colombia) — Primer año · **Becado al 100%**. Fundamentos algorítmicos, programación en **Python** y **Java**, y arquitectura de sistemas. |
+| **🛡️ Ciberseguridad & Linux** | Incursionando en seguridad informática, administración de servidores remotos **Debian (`code-server`)**, entornos móviles de desarrollo y consola con **Termux**, y experimentación a bajo nivel. |
+| **🕊️ Formación complementaria** | Graduado del programa **Programadores para la Paz**. |
+
+---
+
+## 🧠 Metodología: Ingeniería Orquestada con IA (*AI-First*)
+
+No uso la IA para copiar y pegar a ciegas; **trabajo como arquitecto y director técnico apalancado en agentes de IA y playgrounds**:
+
+```mermaid
+flowchart LR
+    P["1. Problema y Negocio"] --> A["2. Arquitectura y Diseño<br/>(Criterio de Ingeniería)"]
+    A --> IA["3. Orquestación AI & Playgrounds<br/>(Generación + Automatización)"]
+    IA --> V["4. Auditoría, Seguridad<br/>y Despliegue en Producción"]
+```
+
+- **Arquitectura y criterio propio:** defino el modelo de datos, la lógica de negocio, las integraciones y la experiencia de usuario antes de generar una sola línea.
+- **Velocidad de entrega 10x:** utilizo agentes de IA y **Playgrounds** como multiplicadores de fuerza para prototipar, iterar y automatizar código repetitivo, concentrándome en la revisión técnica, la seguridad y el impacto real en el cliente.
+
+---
+
+## 🛠️ Qué construyo en MagnusCode
 
 ```mermaid
 flowchart LR
@@ -40,7 +66,7 @@ flowchart LR
 
 - **Sitios web y landings** pensados para convertir visitas y aparecer cuando alguien pregunta en buscadores o asistentes de IA.
 - **Menús digitales** rápidos, claros y cómodos de pedir desde cualquier celular.
-- **Bots de WhatsApp** para automatizar atención al cliente y toma de pedidos sin perder el toque humano.
+- **Bots de WhatsApp** para automatizar atención al cliente y toma de pedidos.
 - **Herramientas a la medida** para resolver operaciones puntuales de cada negocio.
 
 ---
@@ -55,42 +81,37 @@ flowchart LR
 | **Método Raptor** | ![Equipo](https://img.shields.io/badge/Parte_del_Equipo-6366F1?style=flat-square&logo=codeforces&logoColor=white) | Plataforma de preparación pre-ICFES donde soy el programador del **sistema de calificación** y del **campus virtual**. <!-- PENDIENTE: enlace si aplica --> |
 
 <details>
-<summary><b>📂 Ver más proyectos y herramientas que he construido (clic para desplegar)</b></summary>
+<summary><b>📂 Ver más proyectos, laboratorios y herramientas que he construido (clic para desplegar)</b></summary>
 <br />
 
 - **TeBoto** y **StudyClip AI** — Proyectos propios en desarrollo. <!-- PENDIENTE: detalle de una línea confirmado por Juan -->
-- **MagnusCRM** — Gestión de clientes propia. <!-- PENDIENTE: detalle corto -->
+- **MagnusCRM** — Sistema propio de gestión de clientes. <!-- PENDIENTE: detalle corto -->
 - **Gestor de malla curricular de Icesi** y **Calculadora de puntaje ICFES para Univalle**.
-- **Impresión térmica ESC/POS** — Módulo para recibos de punto de venta.
+- **Impresión térmica ESC/POS** — Módulo para impresión de recibos en punto de venta.
 - **Dashboard financiero de paintball con visualizador 3D**, **Gesture Particle Canvas** (control por gestos de mano en cámara), **Open Sports Tournament Tracker** (repos JSON abiertos), **Amigurumi Studio** y **COPy**.
+- **Visión a futuro — MaguiAprende:** idea en diseño para llevar una plataforma educativa digital a jóvenes del Pacífico.
 </details>
 
 ---
 
-## 📍 En qué estoy ahora
-
-- 🚧 **Construyendo Mi Wapi:** creando tecnología pensada para la realidad de los municipios del Pacífico.
-- 🎓 **Ingeniería de Sistemas en la Universidad Icesi:** cursando primer año (becado al 100%). Formación complementaria en *Programadores para la Paz*.
-- 💡 **Visión a futuro — MaguiAprende:** una idea (aún por ejecutar) para crear una plataforma educativa dirigida a jóvenes del Pacífico.
-
----
-
-## ⚡ Cómo trabajo y Stack
-
-Trabajo con un enfoque *AI-first*: **"full AI, yo me encargo de dirigir"**. Defino qué se construye, dirijo y superviso a los modelos con criterio técnico y valido cada entrega.
-
-```mermaid
-flowchart LR
-    P["1. Problema del negocio"] --> A["2. Arquitectura y criterio<br/>(Juan dirige)"]
-    A --> IA["3. Ejecución acelerada<br/>(Full AI supervisada)"]
-    IA --> V["4. Validación y entrega<br/>en producción"]
-```
+## 💻 Stack Tecnológico y Entornos
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,ts,supabase,firebase,vercel,netlify,astro,appwrite,githubactions,tailwind&theme=dark" alt="Stack de Juan Miguel Guerrero" />
-  <br />
-  <sub><b>Next.js 14 · TypeScript · Supabase · Firebase · Vercel · Netlify · Astro · Appwrite · GitHub Actions · Tailwind CSS</b></sub>
+  <img src="https://skillicons.dev/icons?i=ts,python,java,nextjs,astro,tailwind,supabase,firebase,appwrite,linux,debian,githubactions,vercel,netlify&theme=dark" alt="Stack de Juan Miguel Guerrero" />
 </div>
+
+<br />
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Termux-CLI_&_Mobile_Dev-000000?style=flat-square&logo=gnubash&logoColor=34D399" alt="Termux" />
+  <img src="https://img.shields.io/badge/Linux_/_Debian-Servers_&_code--server-A81D33?style=flat-square&logo=debian&logoColor=white" alt="Debian Linux" />
+  <img src="https://img.shields.io/badge/Ciberseguridad-En_formaci%C3%B3n_&_Labs-0F172A?style=flat-square&logo=hackthebox&logoColor=10B981" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/AI_Playgrounds-Orquestaci%C3%B3n_de_Modelos-4F46E5?style=flat-square&logo=openai&logoColor=white" alt="AI Playgrounds" />
+</div>
+
+- **Lenguajes y Web:** TypeScript · Python · Java · Next.js 14 · Astro · Tailwind CSS
+- **Backend, Cloud y CI/CD:** Supabase · Firebase · Appwrite · GitHub Actions · Vercel · Netlify
+- **Sistemas, Seguridad e IA:** Linux (Debian / `code-server`) · Termux · Laboratorios de Ciberseguridad · AI Playgrounds & Agentes
 
 ---
 
@@ -108,4 +129,4 @@ flowchart LR
 
 ---
 
-**Fuera del código:** calistenia, Ultimate Frisbee con el equipo de la universidad, rodar en moto por Cali, salsa de Rubén Blades y Willie Colón, Alcolirykoz, buen café mientras programo, lecturas de Marco Aurelio o Camus, *Shingeki no Kyojin*, *BoJack Horseman*, Minecraft survival y cacharrear servidores Debian con `code-server` o flasheo de ROMs.
+**Fuera del código:** calistenia, Ultimate Frisbee con el equipo de la universidad, rodar en moto por Cali, salsa de Rubén Blades y Willie Colón, Alcolirykoz, buen café mientras programo, lecturas de Marco Aurelio o Camus, *Shingeki no Kyojin*, *BoJack Horseman*, Minecraft survival y flasheo de ROMs.
